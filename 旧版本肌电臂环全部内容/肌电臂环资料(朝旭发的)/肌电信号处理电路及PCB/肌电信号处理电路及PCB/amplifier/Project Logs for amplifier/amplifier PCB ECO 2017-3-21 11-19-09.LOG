@@ -1,0 +1,5 @@
+Added Component: Designator=P3(BAT3)
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=NTC3 Pin=P3-2
+Added Pin To Net: NetName=+3.7V Pin=P3-3
+Added Member To Class: ClassName=amplifier Member=Component P3 Header 3

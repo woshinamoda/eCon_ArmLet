@@ -1,0 +1,9 @@
+Added Component: Designator=D1(1608[0603])
+Added Component: Designator=R6(1608[0603])
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=+3.3V Pin=R6-1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R6-2
+Added Net: Name=NetD1_1
+Added Member To Class: ClassName=有线肌电 Member=Component D1 LED1
+Added Member To Class: ClassName=有线肌电 Member=Component R6 330R

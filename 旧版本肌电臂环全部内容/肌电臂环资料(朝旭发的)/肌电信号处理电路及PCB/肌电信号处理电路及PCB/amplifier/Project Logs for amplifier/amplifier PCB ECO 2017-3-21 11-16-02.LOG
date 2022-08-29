@@ -1,0 +1,109 @@
+Added Component: Designator=1(elec-diff)
+Added Component: Designator=2(elec-diff)
+Added Component: Designator=3(elec-ref)
+Added Component: Designator=C1(0201)
+Added Component: Designator=C2(0402 - MI)
+Added Component: Designator=C3(0402 - MI)
+Added Component: Designator=C4(0201)
+Added Component: Designator=C5(0201)
+Added Component: Designator=C6(0402 - MI)
+Added Component: Designator=C7(0201)
+Added Component: Designator=P1(6P_0.5mm(FPC) - duplicate)
+Added Component: Designator=P3(BAT3)
+Added Component: Designator=R1(0201)
+Added Component: Designator=R2(0201)
+Added Component: Designator=R3(0201)
+Added Component: Designator=R4(0201)
+Added Component: Designator=R5(0201)
+Added Component: Designator=R6(0201)
+Added Component: Designator=R7(0201)
+Added Component: Designator=R8(0201)
+Added Component: Designator=R9(0201)
+Added Component: Designator=R10(0201)
+Added Component: Designator=U1(MSOP-8)
+Added Component: Designator=U2(SOT23-5AM)
+Added Component: Designator=U3(SOT23-5AM)
+Added Pin To Net: NetName=+3.3V Pin=P1-5
+Added Pin To Net: NetName=+3.3V Pin=U3-5
+Added Net: Name=+3.3V
+Added Pin To Net: NetName=+3.7V Pin=P1-6
+Added Pin To Net: NetName=+3.7V Pin=P3-3
+Added Net: Name=+3.7V
+Added Pin To Net: NetName=+VS Pin=C4-1
+Added Pin To Net: NetName=+VS Pin=P1-3
+Added Pin To Net: NetName=+VS Pin=R3-1
+Added Pin To Net: NetName=+VS Pin=U1-8
+Added Pin To Net: NetName=+VS Pin=U2-5
+Added Net: Name=+VS
+Added Pin To Net: NetName=-VS Pin=C5-2
+Added Pin To Net: NetName=-VS Pin=P1-4
+Added Pin To Net: NetName=-VS Pin=U1-5
+Added Pin To Net: NetName=-VS Pin=U2-2
+Added Net: Name=-VS
+Added Pin To Net: NetName=GND Pin=3-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Net: Name=GND
+Added Pin To Net: NetName=Net1_1 Pin=1-1
+Added Pin To Net: NetName=Net1_1 Pin=C1-2
+Added Pin To Net: NetName=Net1_1 Pin=C2-1
+Added Pin To Net: NetName=Net1_1 Pin=U1-1
+Added Net: Name=Net1_1
+Added Pin To Net: NetName=Net2_1 Pin=2-1
+Added Pin To Net: NetName=Net2_1 Pin=C1-1
+Added Pin To Net: NetName=Net2_1 Pin=C3-2
+Added Pin To Net: NetName=Net2_1 Pin=U1-4
+Added Net: Name=Net2_1
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=R6-2
+Added Pin To Net: NetName=NetC6_1 Pin=R8-1
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=U1-7
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=R2-1
+Added Pin To Net: NetName=NetC7_2 Pin=R7-2
+Added Net: Name=NetC7_2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=U1-2
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-3
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=R3-2
+Added Pin To Net: NetName=NetR2_2 Pin=U3-3
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-2
+Added Pin To Net: NetName=NetR4_1 Pin=U3-4
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=R9-2
+Added Pin To Net: NetName=NetR7_1 Pin=U2-1
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=R9-1
+Added Pin To Net: NetName=NetR8_2 Pin=U2-4
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=U2-3
+Added Net: Name=NetR10_2
+Added Pin To Net: NetName=NTC3 Pin=P3-2
+Added Net: Name=NTC3
+Added Pin To Net: NetName=VOUT Pin=P1-1
+Added Pin To Net: NetName=VOUT Pin=R5-1
+Added Pin To Net: NetName=VOUT Pin=U3-1
+Added Net: Name=VOUT
+Added Class: Name=amplifier

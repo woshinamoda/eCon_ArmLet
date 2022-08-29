@@ -1,0 +1,2 @@
+battery_spy.c:44:6:Bat_Filter	16	static
+battery_spy.c:61:6:Bat_Spy	16	static

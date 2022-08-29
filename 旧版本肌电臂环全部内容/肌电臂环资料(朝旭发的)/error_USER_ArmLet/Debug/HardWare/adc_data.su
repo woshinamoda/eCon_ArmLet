@@ -1,0 +1,2 @@
+adc_data.c:12:6:ADCStart	8	static
+adc_data.c:18:6:get_ADCdata	24	static

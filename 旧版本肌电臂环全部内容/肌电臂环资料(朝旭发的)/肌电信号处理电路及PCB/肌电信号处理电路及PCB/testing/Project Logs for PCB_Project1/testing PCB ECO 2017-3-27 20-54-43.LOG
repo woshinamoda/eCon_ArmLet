@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+3.7V Pin=P2-1
+Removed Pin From Net: NetName=+3.7V Pin=S1-2
+Added Component: Designator=P4(HDR1X3)
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=GND Pin=P4-3
+Added Pin To Net: NetName=+4.2V Pin=P2-1
+Added Pin To Net: NetName=+4.2V Pin=S1-2
+Added Net: Name=+4.2V
+Added Member To Class: ClassName=testing Member=Component P4 Header 3

@@ -1,0 +1,63 @@
+	double* Attitude::DATA_ALG(int imu_data[],int size)
+	{	
+		double scale_acc=8192;
+		double scale_gyo=16.4;
+		double scale_mag=0.3;
+		double yaw;
+		double pitch;
+		double roll;
+
+		double acc_x = -imu_data[3]/scale_acc*9.81;
+		double acc_y = imu_data[4]/scale_acc*9.81;
+		double acc_z = imu_data[5]/scale_acc*9.81;
+
+		double gyo_x = -imu_data[0]/scale_gyo*2*GL_PI/360;
+		double gyo_y = -imu_data[1]/scale_gyo*2*GL_PI/360;
+		double gyo_z = imu_data[2]/scale_gyo*2*GL_PI/360;
+
+		double tempmag_x= imu_data[7]*scale_mag;
+		double tempmag_y= imu_data[6]*scale_mag;
+		double tempmag_z=-imu_data[8]*scale_mag;
+
+		MahonyAHRSupdateIMU(gyo_y,gyo_x,-gyo_z,acc_y,acc_x,-acc_z);
+
+		double qx=q1;
+		double qy=q2;
+		double qz=q3;
+		double qw=q0;
+		double x_temp,y_temp,z_temp;
+
+		double test = qy*qz + qx*qw;
+		if (test > 0.4999f)
+		{
+			 z_temp = 2.0f * atan2(qy, qw);
+			 y_temp = GL_PI/2;
+			 x_temp = 0.0f;
+		}
+		else if (test < -0.4999f)
+		{
+			 z_temp = 2.0f * atan2(qy, qw);
+			 y_temp = -GL_PI/2;
+			 x_temp = 0.0f;
+		}
+		else
+		{
+			double sqx = qx * qx;
+			double sqy = qy * qy;
+			double sqz = qz * qz;
+
+			z_temp = atan2(2.0f * qz * qw - 2.0f * qy * qx, 1.0f - 2.0f * sqz - 2.0f * sqx);
+			y_temp= asin(2.0f * test);
+			x_temp = atan2(2.0f * qy * qw - 2.0f * qz * qx, 1.0f - 2.0f * sqy - 2.0f * sqx);
+		}
+		yaw = -z_temp*360/2/GL_PI;
+		pitch = -x_temp*360/2/GL_PI;
+		roll = -y_temp*360/2/GL_PI;
+
+		double *temp = new double[3];
+		temp[0] = yaw;
+		temp[1] = pitch;
+		temp[2] = roll;
+
+		return temp;
+	}

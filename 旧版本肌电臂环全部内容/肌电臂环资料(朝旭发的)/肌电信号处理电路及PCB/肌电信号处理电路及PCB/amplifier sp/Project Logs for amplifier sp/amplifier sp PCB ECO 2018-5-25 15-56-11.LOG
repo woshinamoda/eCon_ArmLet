@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+VS Pin=C4-1
+Removed Pin From Net: NetName=+VS Pin=R5-2
+Removed Pin From Net: NetName=+VS Pin=U1-8
+Removed Pin From Net: NetName=+VS Pin=U2-5
+Added Pin To Net: NetName=+3.3V Pin=C4-1
+Added Pin To Net: NetName=VOUT Pin=P2-5
+Added Pin To Net: NetName=+3.3V Pin=R5-2
+Added Pin To Net: NetName=+3.3V Pin=U1-8
+Added Pin To Net: NetName=+3.3V Pin=U2-5
+Change Net Name : Old Net Name=VOUT New Net Name=V5
+Added Room: Name=amplifier sp

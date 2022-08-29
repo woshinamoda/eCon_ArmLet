@@ -1,0 +1,23 @@
+MPU 数据格式：
+
+MPU_Sent[0]=((short)(Pitch*100))>>8;
+MPU_Sent[1]=((short)(Pitch*100))&0x00ff;
+MPU_Sent[2]=((short)(Roll*100))>>8;
+MPU_Sent[3]=((short)(Roll*100))&0x00ff;	
+MPU_Sent[4]=((short)(Yaw*100))>>8;
+MPU_Sent[5]=((short)(Yaw*100))&0x00ff;	
+
+MPU_Sent[2*n]=gyro[n]>>8; 
+MPU_Sent[2*n+1]=gyro[n]&0x00ff;
+
+
+MPU_Sent[2*n]=accel[n]>>8; 
+MPU_Sent[2*n+1]=accel[n]&0x00ff;
+
+
+MPU_Sent[2*n]=mag[n]>>8; 
+MPU_Sent[2*n+1]=mag[n]&0x00ff;
+
+肌电 数据格式12Bits：
+
+使用6050，注释了读取磁力计的代码

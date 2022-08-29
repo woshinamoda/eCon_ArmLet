@@ -1,0 +1,43 @@
+Partlist exported from C:/Users/Admin-01/Desktop/band4.0/slave/band4.0.sch at 2017-12-06 15:08
+
+Qty Value           Device                    Package                   Parts                                                         Description          MPN               VALUE          
+2                   PNP                       PNP                       U1, U3                                                        S8550：PNP Transistor                                  
+6   0.1uf           C(0402)                   C0402                     C1, C5, C6, C7, C13, C14                                      302010048            CC0402BRNPO9BNR50 0.5pf          
+1   0.8pf           C(0402)                   C0402                     C22                                                           302010048            CC0402BRNPO9BNR50 0.5pf          
+14  0R              RES-(0402)                R0402                     R1, R2, R3, R5, R6, R7, R8, R11, R21, R24, R25, R26, R27, R28 301010000            RC0402JR-070RL    0R             
+1   1.5k            RES-(0402)                R0402                     R9                                                            301010000            RC0402JR-070RL    0R             
+3   100nf           C(0402)                   C0402                     C18, C21, C26                                                 302010048            CC0402BRNPO9BNR50 0.5pf          
+1   100pf           C(0402)                   C0402                     C23                                                           302010048            CC0402BRNPO9BNR50 0.5pf          
+6   10k             RES-(0402)                R0402                     R14, R19, R20, R22, R23, R29                                  301010000            RC0402JR-070RL    0R             
+1   10nf            C(0402)                   C0402                     C12                                                           302010048            CC0402BRNPO9BNR50 0.5pf          
+1   10uf            C(0402)                   C0402                     C10                                                           302010048            CC0402BRNPO9BNR50 0.5pf          
+1   10uh            INDUCTOR(0402)            L0402                     L2                                                            303010072                              1NH-1A         
+4   12pf            C(0402)                   C0402                     C16, C17, C24, C25                                            302010048            CC0402BRNPO9BNR50 0.5pf          
+1   15nh            INDUCTOR(0402)            L0402                     L3                                                            303010072                              1NH-1A         
+1   16MHZ           16MHZ                     16MHZ                     X-1                                                                                                                 
+1   1k              RES-(0402)                R0402                     R10                                                           301010000            RC0402JR-070RL    0R             
+2   1uf             C(0402)                   C0402                     C11, C28                                                      302010048            CC0402BRNPO9BNR50 0.5pf          
+1   2.2nf           C(0402)                   C0402                     C15                                                           302010048            CC0402BRNPO9BNR50 0.5pf          
+1   20k             RES-(0402)                R0402                     R15                                                           301010000            RC0402JR-070RL    0R             
+2   20pf            C(0402)                   C0402                     C2, C3                                                        302010048            CC0402BRNPO9BNR50 0.5pf          
+4   2k              RES-(0402)                R0402                     R13, R16, R17, R18                                            301010000            RC0402JR-070RL    0R             
+1   3.9nh           INDUCTOR(0402)            L0402                     L1                                                            303010072                              1NH-1A         
+1   32.768KHZ       32.768KHZ                 32.768KHZ                 X-2                                                                                                                 
+1   32MHZ           16MHZ                     16MHZ                     X-3                                                                                                                 
+4   4.7uf           C(0402)                   C0402                     C4, C8, C9, C27                                               302010048            CC0402BRNPO9BNR50 0.5pf          
+1   470R            RES-(0402)                R0402                     R4                                                            301010000            RC0402JR-070RL    0R             
+1   ANT8030-2R4-01A ANTENNA                   ANTENNA                   ANT1                                                          317070006                              ANT8030-2R4-01A
+2   BLUE-0402       LED-(0402)                LED-0402                  D1, D2                                                        304090075            BL-HB337A-AV-TRB  BLUE-0402      
+1   FPC-12          FPC-12                    FPC-12                    FPC-12-1                                                                                                            
+1   MCP73831        MCP73831                  SOT23-5                   MCP73831-1                                                                                                          
+1   MOTOR           MOTOR                     MOTOR                     M-1                                                                                                                 
+1   MPU-6050        MPU-6050                  QFN24-4X4                 MPU6050-1                                                                                                           
+1   RF-51822        IC-NRF-52832(QFN48)       QFN48G-0.4-6X6MM          U2                                                            310060026            RF-51822          RF-51822       
+1   RGB-LED         RGB-LED                   RGB-LED                   RGB-1                                                                                                               
+1   RT9013          RT9013                    SC-70-5                   U$1                                                                                                                 
+1   STM32F411       STM32F411                 QFN48-7X7                 STM32F411-1                                                                                                         
+9   TEST-POINT      TEST-POINT                TEST-POINT                U$2, U$3, U$4, U$5, U$6, U$7, U$8, U$9, U$10                                                                        
+1   ZX62-B-5PA      MICRO-USB-SMD(ZX62-B-5PA) MICRO-USB5+6P-SMD-0.65-AB USB1                                                          320010005            ZX62-B-5PA        ZX62-B-5PA     
+
+
+USB处有几个电阻不用

@@ -1,0 +1,19 @@
+PCB Library : amplifier.PcbLib
+Date        : 2018/4/11
+Time        : 10:59:33
+
+
+
+Component Count : 8
+
+Component Name
+-----------------------------------------------
+
+6P_0.5mm(FPC) - duplicate
+0201
+0402 - MI
+BAT3
+elec-diff
+elec-ref
+MSOP-8
+SOT23-5AM

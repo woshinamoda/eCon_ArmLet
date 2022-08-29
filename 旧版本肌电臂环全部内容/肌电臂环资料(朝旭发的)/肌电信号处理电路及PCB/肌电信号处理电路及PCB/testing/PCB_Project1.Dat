@@ -1,0 +1,22 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|Field=Value~String~Value~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_Project1.PrjPCB|ReportField=ProjectFullPath~C:\Users\Fang娟\Desktop\eCon 肌电臂带\硬件\信号调理电路图\testing\PCB_Project1.PrjPCB|ReportField=Title~Bill of Materials For Project [PCB_Project1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~22|ReportField=ReportTime~22:53:30|ReportField=ReportDate~2017/3/27|ReportField=ReportDateTime~2017/3/27 22:53:30|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2017/3/27|ReportField=CurrentTime~22:53:01|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Fang娟\Desktop\eCon 肌电臂带\硬件\信号调理电路图\testing\testing.SchDoc|ReportField=DocumentName~testing.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2017/3/27|ReportField=Organization~|ReportField=ProjectName~PCB_Project1.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_Project1.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Fang娟\Desktop\eCon 肌电臂带\硬件\信号调理电路图\testing\PCB_Project1.PrjPCB
+10uf|Capacitor|C1|0805|Cap|1|10uF
+1uf|Capacitor|C2|0805|Cap|1|1uF
+|Capacitor|C3, C4|0805|Cap|2|1uF
+Cap Semi|Capacitor (Semiconductor SIM Model)|C5|0805|Cap Semi|1|0.33uF
+Cap Semi|Capacitor (Semiconductor SIM Model)|C6|0805|Cap Semi|1|5pF
+Cap Semi|Capacitor (Semiconductor SIM Model)|C7|0805|Cap Semi|1|4.7uF
+Cap Semi|Capacitor (Semiconductor SIM Model)|C8|0805|Cap Semi|1|3.3uF
+Diode|Default Diode|D1|D0402|Diode|1|
+Res3|Resistor|L1|0402 - MI|Res3|1|10uH
+Green|Typical INFRARED GaAs LED|LED1|0805|LED0|1|
+Header 6|Header, 6-Pin|P1|6P_0.5mm(FPC) - duplicate - duplicate|Header 6|1|
+Header 2|Header, 2-Pin|P2|HDR1X2|Header 2|1|
+Header 6|Header, 6-Pin|P3|HDR1X6|Header 6|1|
+Header 3|Header, 3-Pin|P4|HDR1X3|Header 3|1|
+1K|Resistor|R1|0805|Res2|1|1K
+10|Resistor|R2|0805|Res2|1|
+180K|Resistor|R3|0805|Res2|1|
+||S1|HDR1X3|Switch|1|
+RT9013 3.3||U3|SOT23-5AM|RT9013 SOT235|1|
+LT3483||U4|LT3843|LT3483|1|
+RT9013 1.8||U5|SC-70-5|RT9013 SOT235|1|

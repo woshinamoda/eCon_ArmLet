@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=C8 NewDesignator=C3
+Added Member To Class: ClassName=amplifier sp Member=Component C8 Cap Semi
+Added Room: Name=amplifier sp

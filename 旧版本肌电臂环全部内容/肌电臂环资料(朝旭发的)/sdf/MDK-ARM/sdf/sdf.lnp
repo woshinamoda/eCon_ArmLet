@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"sdf\startup_stm32f407xx.o"
+"sdf\main.o"
+"sdf\gpio.o"
+"sdf\tim.o"
+"sdf\stm32f4xx_it.o"
+"sdf\stm32f4xx_hal_msp.o"
+"sdf\stm32f4xx_hal_tim.o"
+"sdf\stm32f4xx_hal_tim_ex.o"
+"sdf\stm32f4xx_hal_rcc.o"
+"sdf\stm32f4xx_hal_rcc_ex.o"
+"sdf\stm32f4xx_hal_flash.o"
+"sdf\stm32f4xx_hal_flash_ex.o"
+"sdf\stm32f4xx_hal_flash_ramfunc.o"
+"sdf\stm32f4xx_hal_gpio.o"
+"sdf\stm32f4xx_hal_dma_ex.o"
+"sdf\stm32f4xx_hal_dma.o"
+"sdf\stm32f4xx_hal_pwr.o"
+"sdf\stm32f4xx_hal_pwr_ex.o"
+"sdf\stm32f4xx_hal_cortex.o"
+"sdf\stm32f4xx_hal.o"
+"sdf\stm32f4xx_hal_exti.o"
+"sdf\system_stm32f4xx.o"
+--strict --scatter "sdf\sdf.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "sdf.map" -o sdf\sdf.axf
