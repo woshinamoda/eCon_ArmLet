@@ -1,3 +1,0 @@
-led.c:19:6:Open_LED	16	static
-led.c:50:6:Close_LED	16	static
-led.c:81:6:Booth_LED	16	static

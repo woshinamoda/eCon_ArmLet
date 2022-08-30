@@ -1,3 +1,0 @@
-adc_data.c:13:6:ADCStart	8	static
-adc_data.c:19:6:get_ADCdata	24	static
-adc_data.c:52:6:get_ADCdata_Double_for_Onechannel	4	static

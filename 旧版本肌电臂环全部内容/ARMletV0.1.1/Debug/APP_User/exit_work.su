@@ -1,4 +1,0 @@
-exit_work.c:24:6:HAL_GPIO_EXTI_Callback	16	static
-exit_work.c:69:6:htim3_work_serve	8	static
-exit_work.c:101:6:htim9_work_serve	4	static
-exit_work.c:140:6:htim11_work_serve	8	static

@@ -1,7 +1,0 @@
-app_user.c:16:6:SysPower_Close	4	static
-app_user.c:21:6:SysPower_Open	4	static
-app_user.c:28:9:KeyDown_Open_init	16	static
-app_user.c:57:9:Charge_Open_init	16	static
-app_user.c:85:6:BSP_BP_Init	40	static
-app_user.c:106:6:Open_WKUP_NVIC	8	static
-app_user.c:118:6:WKUP_init	8	static
